@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai.Senatur.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Senai.Senatur.WebApi.Domains.SenaturContext">
+            <summary>
+            Classe responsável pelo contexto do projeto
+            Faz a comunicação entre API e Banco de Dados
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Domains.Cidades.#ctor">
+            <summary>
+            Classe que representa a entidade Cidades
+            </summary>
+        </member>
+        <member name="T:Senai.Senatur.WebApi.Domains.Pacotes">
+            <summary>
+            Classe que representa a entidade Pacotes
+            </summary>
+        </member>
+        <member name="T:Senai.Senatur.WebApi.Domains.TiposUsuario">
+            <summary>
+            Classe que representa a entidade TiposUsuario
+            </summary>
+        </member>
+        <member name="T:Senai.Senatur.WebApi.Domains.Usuarios">
+            <summary>
+            Classe que representa a entidade Usuario
+            </summary>
+        </member>
+        <member name="T:Senai.Senatur.WebApi.Interfaces.ICidadeRepository">
+            <summary>
+            Interface responsável pelo Cidades Repository
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ICidadeRepository.Listar">
+            <summary>
+            Lista todas as cidades
+            </summary>
+            <returns>Retorna uma lista de todas as cidades</returns>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ICidadeRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca uma cidade pelo Id
+            </summary>
+            <param name="id">Id da cidade que será buscada</param>
+            <returns>Retorna a cidade buscada pelo Id</returns>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ICidadeRepository.Cadastrar(Senai.Senatur.WebApi.Domains.Cidades)">
+            <summary>
+            Cadastra uma nova cidade
+            </summary>
+            <param name="novaCidade">Objeto que armazenará a nova cidade que será cadastrada</param>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ICidadeRepository.Atualizar(System.Int32,Senai.Senatur.WebApi.Domains.Cidades)">
+            <summary>
+            Atualiza uma cidade existente
+            </summary>
+            <param name="id">Id da cidade que será atualizada</param>
+            <param name="cidadeAtualizada">Objeto com as novas informações</param>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ICidadeRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta uma cidade existente
+            </summary>
+            <param name="id">Id da cidade que será deletada</param>
+        </member>
+        <member name="T:Senai.Senatur.WebApi.Interfaces.IPacoteRepository">
+            <summary>
+            Interface responsável pelo Pacote Repository
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IPacoteRepository.Listar">
+            <summary>
+            Lista todos os pacotes
+            </summary>
+            <returns>Retorna uma lista com todos os pacotes</returns>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IPacoteRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um pacote pelo Id
+            </summary>
+            <param name="id">Id do pacote que será buscado</param>
+            <returns>Retorna o pacote buscado através do Id</returns>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IPacoteRepository.Cadastrar(Senai.Senatur.WebApi.Domains.Pacotes)">
+            <summary>
+            Cadastra um novo pacote
+            </summary>
+            <param name="novoPacote">Objeto que será cadastrado o novoPacote</param>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IPacoteRepository.Atualizar(System.Int32,Senai.Senatur.WebApi.Domains.Pacotes)">
+            <summary>
+            Átualiza um pacote existente
+            </summary>
+            <param name="id">Id do pacote que será atualizado</param>
+            <param name="pacoteAtualizado">Objeto que armazenará os dados do pacote atualizado</param>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IPacoteRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um pacote existente
+            </summary>
+            <param name="id">Id do pacote que será deletado</param>
+        </member>
+        <member name="T:Senai.Senatur.WebApi.Interfaces.ITipoUsuarioRepository">
+            <summary>
+            Interface responsável pelo TipoUsuarioRepository
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ITipoUsuarioRepository.Listar">
+            <summary>
+            Lista todos os tipos de usuários
+            </summary>
+            <returns>Uma lista de tipos de usuários</returns>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ITipoUsuarioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um tipo de usuário através do ID
+            </summary>
+            <param name="id">ID do tipo de usuário buscado</param>
+            <returns>Um tipo de usuário buscado</returns>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ITipoUsuarioRepository.Cadastrar(Senai.Senatur.WebApi.Domains.TiposUsuario)">
+            <summary>
+            Cadastra um novo tipo de usuário
+            </summary>
+            <param name="novoTipoUsuario">Objeto novoTipoUsuario que será cadastrado</param>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ITipoUsuarioRepository.Atualizar(System.Int32,Senai.Senatur.WebApi.Domains.TiposUsuario)">
+            <summary>
+            Atualiza um tipo de usuário existente
+            </summary>
+            <param name="id">ID do tipo de usuário que será atualizado</param>
+            <param name="tipoUsuarioAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.ITipoUsuarioRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um tipo de usuário
+            </summary>
+            <param name="id">ID do tipo de usuário que será deletado</param>
+        </member>
+        <member name="T:Senai.Senatur.WebApi.Interfaces.IUsuarioRepository">
+            <summary>
+            Interface responsável pelo UsuarioRepository
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IUsuarioRepository.Listar">
+            <summary>
+            Lista todos os usuários
+            </summary>
+            <returns>Uma lista de usuários</returns>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IUsuarioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um usuário através do ID
+            </summary>
+            <param name="id">ID do usuário buscado</param>
+            <returns>Um usuário buscado</returns>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IUsuarioRepository.Cadastrar(Senai.Senatur.WebApi.Domains.Usuarios)">
+            <summary>
+            Cadastra um novo usuário
+            </summary>
+            <param name="novoUsuario">Objeto novoUsuario que será cadastrado</param>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IUsuarioRepository.Atualizar(System.Int32,Senai.Senatur.WebApi.Domains.Usuarios)">
+            <summary>
+            Atualiza um usuário existente
+            </summary>
+            <param name="id">ID do usuário que será atualizado</param>
+            <param name="usuarioAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Interfaces.IUsuarioRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um usuário
+            </summary>
+            <param name="id">ID do usuário que será deletado</param>
+        </member>
+    </members>
+</doc>

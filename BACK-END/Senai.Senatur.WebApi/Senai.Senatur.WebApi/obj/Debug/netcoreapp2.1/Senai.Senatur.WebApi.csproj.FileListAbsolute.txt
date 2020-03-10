@@ -12,3 +12,19 @@ C:\Users\39221000826\Documents\senai-backend-senatur-FlavioPires-HenriqueBarreir
 C:\Users\39221000826\Documents\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
 C:\Users\39221000826\Documents\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
 C:\Users\39221000826\Documents\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.deps.json
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.runtimeconfig.json
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.runtimeconfig.dev.json
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.csprojAssemblyReference.cache
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.csproj.CoreCompileInputs.cache
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.RazorAssemblyInfo.cache
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.RazorAssemblyInfo.cs
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.AssemblyInfoInputs.cache
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.AssemblyInfo.cs
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.RazorTargetAssemblyInfo.cache
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
+D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
