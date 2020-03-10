@@ -1,3 +1,5 @@
+USE Senatur_Manha;
+GO
 
 SELECT * FROM TiposUsuario
 SELECT * FROM Usuarios
