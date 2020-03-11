@@ -16,9 +16,9 @@ namespace Senai.Senatur.WebApi.Repositories
         SenaturContext ctx = new SenaturContext();
 
         /// <summary>
-        /// Atualizar um estudio
+        /// Atualizar uma cidade
         /// </summary>
-        /// <param name="id">Id do estudio que sera atualizado</param>
+        /// <param name="id">Id da cidade que sera atualizada</param>
         /// <param name="cidadeAtualizada">Objeto com as informações atualizadas</param>
         public void Atualizar(int id, Cidades cidadeAtualizada)
         {
@@ -28,7 +28,7 @@ namespace Senai.Senatur.WebApi.Repositories
             // Verifica se o nome da cidade foi informado
             if (cidadeAtualizada.NomeCidade != null)
             {
-                // Atribui os novos valores ao campos existentes
+                // Atribui os novos valores aos campos existentes
                 cidadeBuscada.NomeCidade = cidadeAtualizada.NomeCidade;
             }
 
@@ -43,7 +43,7 @@ namespace Senai.Senatur.WebApi.Repositories
         /// Busca uma Cidade através do ID
         /// </summary>
         /// <param name="id">ID da cidade que será buscada</param>
-        /// <returns>Uma cidade buscada</returns>
+        /// <returns>Retorna a cidade buscada</returns>
         public Cidades BuscarPorId(int id)
         {
             // Retorna o primeira cidade encontrado para o ID informado

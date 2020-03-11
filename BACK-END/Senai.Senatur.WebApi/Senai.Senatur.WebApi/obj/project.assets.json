@@ -12384,23 +12384,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sala de Video\\.nuget\\packages\\": {},
+    "C:\\Users\\39221000826\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Henrique\\SENAI\\2º sem\\Backand\\senai-backend-senatur-FlavioPires-HenriqueBarreiro\\BACK-END\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\39221000826\\Documents\\senai-backend-senatur-FlavioPires-HenriqueBarreiro\\BACK-END\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
       "projectName": "Senai.Senatur.WebApi",
-      "projectPath": "D:\\Henrique\\SENAI\\2º sem\\Backand\\senai-backend-senatur-FlavioPires-HenriqueBarreiro\\BACK-END\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Sala de Video\\.nuget\\packages\\",
-      "outputPath": "D:\\Henrique\\SENAI\\2º sem\\Backand\\senai-backend-senatur-FlavioPires-HenriqueBarreiro\\BACK-END\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\39221000826\\Documents\\senai-backend-senatur-FlavioPires-HenriqueBarreiro\\BACK-END\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
+      "packagesPath": "C:\\Users\\39221000826\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\39221000826\\Documents\\senai-backend-senatur-FlavioPires-HenriqueBarreiro\\BACK-END\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sala de Video\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\39221000826\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -25,10 +25,16 @@ namespace Senai.Senatur.WebApi.Repositories
             Pacotes pacoteBuscado = ctx.Pacotes.Find(id);
 
             // Verifica se o nome do pacote foi informado
-            if (pacoteAtualizado.NomePacote != null)
+            if (pacoteAtualizado != null)
             {
                 // Atribui os novos valores ao campos existentes
                 pacoteBuscado.NomePacote = pacoteAtualizado.NomePacote;
+                pacoteBuscado.Descricao = pacoteAtualizado.Descricao;
+                pacoteBuscado.DataIda = pacoteAtualizado.DataIda;
+                pacoteBuscado.DataVolta = pacoteAtualizado.DataVolta;
+                pacoteBuscado.Valor = pacoteAtualizado.Valor;
+                pacoteBuscado.Ativo = pacoteAtualizado.Ativo;
+                pacoteBuscado.IdCidade = pacoteAtualizado.IdCidade;
             }
 
             // Atualiza o pacote que foi buscado
@@ -65,7 +71,7 @@ namespace Senai.Senatur.WebApi.Repositories
         /// <summary>
         /// Deletar um pacote 
         /// </summary>
-        /// <param name="id">ID do pacot5e que sera deletado</param>
+        /// <param name="id">ID do pacote que sera deletado</param>
         public void Deletar(int id)
         {
             // Busca um Pacote através do id

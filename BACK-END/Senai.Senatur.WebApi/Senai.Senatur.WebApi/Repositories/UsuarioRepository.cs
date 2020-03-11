@@ -24,11 +24,21 @@ namespace Senai.Senatur.WebApi.Repositories
             // Busca um usuario através do id
             Usuarios usuarioBuscado = ctx.Usuarios.Find(id);
 
-            // Verifica se o Email do usuario foi informado
+            // Verifica se o novo Email do usuario foi informado
             if (usuarioAtualizado.Email != null)
             {
                 // Atribui os novos valores ao campos existentes
                 usuarioBuscado.Email = usuarioAtualizado.Email;
+            }
+            // Verifica se o nova Senha do usuario foi informada
+            if (usuarioAtualizado.Senha != null)
+            {
+                usuarioBuscado.Senha = usuarioAtualizado.Senha;
+            }
+            // Verifica se o novo Tipo de usuario foi informado
+            if (usuarioAtualizado.IdTipoUsuario != null)
+            {
+                usuarioBuscado.IdTipoUsuario = usuarioAtualizado.IdTipoUsuario;
             }
 
             // Atualiza o Usuario que foi buscado
@@ -86,6 +96,18 @@ namespace Senai.Senatur.WebApi.Repositories
         {
             // Retorna uma lista com todas as informações dos Usuarios
             return ctx.Usuarios.ToList();
+        }
+
+        /// <summary>
+        /// Valida um usuário
+        /// </summary>
+        /// <param name="email">Email do usuario que deseja logar</param>
+        /// <param name="senha">Senha do usuario que deseja logar</param>
+        /// <returns>Retorna um usuario logado</returns>
+        public Usuarios BuscarPorEmailSenha(string email, string senha)
+        {
+            //Retorna o primeiro usuario encontrado para o email e senha informado
+            return ctx.Usuarios.FirstOrDefault(e => e.Email == email && e.Senha == senha);
         }
     }
 }

@@ -42,5 +42,13 @@ namespace Senai.Senatur.WebApi.Interfaces
         /// </summary>
         /// <param name="id">ID do usuário que será deletado</param>
         void Deletar(int id);
+
+        /// <summary>
+        /// Valida o usuário
+        /// </summary>
+        /// <param name="email">E-mail do usuário</param>
+        /// <param name="senha">Senha do usuário</param>
+        /// <returns>Um usuário autenticado</returns>
+        Usuarios BuscarPorEmailSenha(string email, string senha);
     }
 }

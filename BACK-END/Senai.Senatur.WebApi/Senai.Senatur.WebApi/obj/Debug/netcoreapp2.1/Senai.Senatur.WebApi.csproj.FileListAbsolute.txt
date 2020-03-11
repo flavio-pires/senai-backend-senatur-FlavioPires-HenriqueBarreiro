@@ -28,3 +28,5 @@ D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarr
 D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
 D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
 D:\Henrique\SENAI\2º sem\Backand\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
+C:\Users\39221000826\Documents\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
+C:\Users\39221000826\Documents\senai-backend-senatur-FlavioPires-HenriqueBarreiro\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
